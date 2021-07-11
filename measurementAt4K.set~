@@ -1,0 +1,37 @@
+#following set of scans will be loaded on loading this file with the biodiffplot program
+#everything following "#" is a comment
+#comments over several lines start and end with triple '
+
++setOfScans{6s
+name: setA
+filename: test_031212_3076 	#file that contains information for measurmeent and list of scans
+wavelength: 4.7 	#in Angstroem
+#optional parameters
+firstscan: 0 		#if not specified this is the filenumber of the first scan
+lastscan: -1 		#if not specified this is the filenumber of the last scan
+scanstep: 1 		#if not specified this is 1
+omegaoffset: -20.9 	#if not specified this is 0
+orientationmatrix: [[1,0,0],[0,1,0],[0,0,1]] 	#if not specified this is [[1,0,0],[0,1,0],[0,0,1]]
+shiftedImages: True	#tries to corrected shifted images automatically
+}
+
++setOfScans{
+name: setB
+filename: test_031212_3077 	#file that contains information for measurmeent and list of scans
+wavelength: 4.7 	#in Angstroem
+#optional parameters
+firstscan: 0 		#if not specified it is the filenumber of the first scan
+lastscan: -1 		#if not specified it is the filenumber of the last scan
+scanstep: 1 		#if not specified this is 1
+omegaoffset: -20.9 	#if not specified this is 0
+orientationmatrix: [[1,0,0],[0,1,0],[0,0,1]] 	#if not specified this is [[1,0,0],[0,1,0],[0,0,1]]
+shiftedImages: True	#tries to corrected shifted images automatically
+}
+
+'''
++savedSet{
+name: setC
+filename: test 		#reads a config file, written sat saving, and the Numpyarray Q
+}
+'''
+#including cif-file for BZ and using the hkl for cutting ... lot of work

@@ -1,0 +1,146 @@
+### NICOS data file, created at 2015-07-15 11:51:22
+#                  filename : p13102_00000647.dat
+#                    number : 647
+#                  filepath : /home/data/2015/p13102/data/
+#                      info : rscan(omega_sampletable_m, 192.0, 0.1, 196.1, t=200)
+### Experiment information
+#               biodiff_doi :  
+#          biodiff_facility : MLZ 
+#        biodiff_instrument : BIODIFF 
+#       biodiff_responsible : Tobias Schrader <t.schrader@fz-juelich.de> 
+#          Exp_localcontact : Tobias Schrader <t.schrader@fz-juelich.de> 
+#              Exp_proposal : p13102 
+#                Exp_remark : lambda = 3.38A 
+#                 Exp_title : HoCu and TmCu magnetic structure 
+#                 Exp_users : Wolfgang Simeth 
+### Sample and alignment
+#         Sample_samplename : HoCu 
+### Precisions/tolerances
+#    d_diaphragm1_precision : 0.05 mm
+#    d_diaphragm2_precision : 0.05 mm
+# omega_samplestepper_precision : 0.001 deg
+# omega_samplestepper_m_precision : 0.001 deg
+# omega_sampletable_precision : 0.001 deg
+# omega_sampletable_m_precision : 0.001 deg
+# rot_scintillatorhead_precision : 0.5 deg
+#  selector_speed_precision : 10.0 rpm
+#         T_ls332_precision : 0.0 K
+#       T_ls332_A_precision : 0.0 K
+#       T_ls332_B_precision : 0.0 K
+# theta2_detectorunit_precision : 0.005 deg
+# theta2_selectorarm_precision : 0.005 deg
+# theta_monochromator_precision : 0.001 deg
+# tilt_monochromator_precision : 0.005 deg
+# x_monochromator_precision : 0.002 mm
+#   x_sampletable_precision : 0.005 mm
+# y_monochromator_precision : 0.002 mm
+#   y_sampletable_precision : 0.005 mm
+#           z_CCD_precision : 0.01 mm
+#     z_CCDcamera_precision : 0.01 mm
+#    z_imageplate_precision : 0.01 mm
+# z_monochromator_precision : 0.002 mm
+#   z_sampletable_precision : 0.005 mm
+### Devices in busy or error status
+#          T_ls332_B_status : warn: temp overrange
+### Device positions and sample environment state
+#               Crane_value : 50.136 m
+#        d_diaphragm1_value : 18.014 mm
+#        d_diaphragm2_value : 13.972 mm
+#        gammashutter_value : close
+#               imgdet_file : C:\dev\Images\test.tif 
+#          imgdet_pixelsize : 250 
+#                imgdet_roi : (0, 0, 1250, 450) 
+#             imgdrum_value : read
+#          imgdrum_drumexpo : 0.0 
+#           imgdrum_drumpos : 350.455 
+#        imgdrum_erasespeed : 300.0 
+#         imgdrum_freqlaser : 2950.13674902 
+#       imgdrum_readheadpos : 472.44 
+#         imgdrum_readspeed : 600.0 
+#         imgdrum_timeerase : 120.0 
+#                 NL1_value : open
+# omega_samplestepper_value : 0.000 deg
+# omega_samplestepper_m_value : 0.000 deg
+#   omega_sampletable_value : 192.000 deg
+# omega_sampletable_m_value : 192.000 deg
+#        photoshutter_value : close
+#        ReactorPower_value : 20.0 MW
+# rot_scintillatorhead_value : 0.000 deg
+#     selector_lambda_value : 8.33 A
+#      selector_rtemp_value : 19.4 degC
+#      selector_speed_value : 15276 rpm
+#     selector_speed_window : 60.0 s
+#     selector_vacuum_value : 0.00090 mbar
+#      selector_vibrt_value : 0.42 mm/s
+#      selector_wflow_value : 4.5 l/min
+#      selector_winlt_value : 18.4 degC
+#      selector_woutt_value : 18.6 degC
+#             Sixfold_value : open
+#               Space_value : 1133.476 GiB
+#             T_ls332_value : 21.967 K
+#                 T_ls332_d : 0.0 
+#      T_ls332_heateroutput : 0.0 
+#                 T_ls332_i : 10.0 
+#                 T_ls332_p : 20.0 
+#          T_ls332_setpoint : 22.0 
+#           T_ls332_A_value : 21.995 K
+#           T_ls332_B_value : 0.000 K
+# theta2_detectorunit_value : 60.919 deg
+#  theta2_selectorarm_value : 60.900 deg
+# theta_monochromator_value : 31.501 deg
+#  tilt_monochromator_value : 0.200 deg
+#     x_monochromator_value : -0.370 mm
+#       x_sampletable_value : -0.800 mm
+#     y_monochromator_value : 0.000 mm
+#       y_sampletable_value : 2.150 mm
+#               z_CCD_value : 31.979 mm
+#         z_CCDcamera_value : -147.519 mm
+#        z_imageplate_value : -0.002 mm
+#     z_monochromator_value : 27.000 mm
+#       z_sampletable_value : 11.800 mm
+### Scan data
+# omega_sampletable_m	;	imgdet.file
+# deg	;	-
+192.000	;	data/p13102_00007122.tiff
+192.100	;	data/p13102_00007123.tiff
+192.200	;	data/p13102_00007124.tiff
+192.300	;	data/p13102_00007125.tiff
+192.400	;	data/p13102_00007126.tiff
+192.500	;	data/p13102_00007127.tiff
+192.600	;	data/p13102_00007128.tiff
+192.700	;	data/p13102_00007129.tiff
+192.800	;	data/p13102_00007130.tiff
+192.900	;	data/p13102_00007131.tiff
+193.000	;	data/p13102_00007132.tiff
+193.100	;	data/p13102_00007133.tiff
+193.200	;	data/p13102_00007134.tiff
+193.300	;	data/p13102_00007135.tiff
+193.400	;	data/p13102_00007136.tiff
+193.500	;	data/p13102_00007137.tiff
+193.600	;	data/p13102_00007138.tiff
+193.700	;	data/p13102_00007139.tiff
+193.800	;	data/p13102_00007140.tiff
+193.900	;	data/p13102_00007141.tiff
+194.000	;	data/p13102_00007142.tiff
+194.100	;	data/p13102_00007143.tiff
+194.200	;	data/p13102_00007144.tiff
+194.300	;	data/p13102_00007145.tiff
+194.400	;	data/p13102_00007146.tiff
+194.500	;	data/p13102_00007147.tiff
+194.600	;	data/p13102_00007148.tiff
+194.700	;	data/p13102_00007149.tiff
+194.800	;	data/p13102_00007150.tiff
+194.900	;	data/p13102_00007151.tiff
+195.000	;	data/p13102_00007152.tiff
+195.100	;	data/p13102_00007153.tiff
+195.200	;	data/p13102_00007154.tiff
+195.300	;	data/p13102_00007155.tiff
+195.400	;	data/p13102_00007156.tiff
+195.500	;	data/p13102_00007157.tiff
+195.600	;	data/p13102_00007158.tiff
+195.700	;	data/p13102_00007159.tiff
+195.800	;	data/p13102_00007160.tiff
+195.900	;	data/p13102_00007161.tiff
+196.000	;	data/p13102_00007162.tiff
+196.100	;	data/p13102_00007163.tiff
+### End of NICOS data file p13102_00000647.dat

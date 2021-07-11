@@ -1,0 +1,22 @@
+# coding: utf-8
+
+import time
+import numpy as np
+
+bins = np.linspace(0,1,11)
+samples = np.random.random(1000)
+hist = np.zeros(len(bins)-1, dtype=np.uint32)
+start_time = time.time()
+for i in xrange(1000):
+    hist += np.histogram(samples, bins)[0]
+print time.time()-start_time
+print hist
+
+hist = np.zeros(len(bins)-1, dtype=np.uint32)
+start_time = time.time()
+for i in xrange(1000):
+    binned_samples = np.digitize(samples, bins[1:-1])
+    bincounts = np.bincount(binned_samples)
+    hist[:len(bincounts)] += bincounts
+print time.time()-start_time
+print hist

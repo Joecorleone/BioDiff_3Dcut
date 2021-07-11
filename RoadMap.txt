@@ -1,0 +1,15 @@
+
+
+10.10.2014:
+- set plot button to default
+- plot dialog: if textfield is empty maximum is used
+
+- create a new type of cut: sliderCut, which slides along one axis through plots
+	create tabs in the cutDialog
+	radiobutton for sliding axes and textfield for sliding step
+	calculate all cuts beforehand (or at runtime?)
+	add type parameter to class and infodialog
+	create a new plot dialog for such a cut
+		slider on right side with min/max, value, +- half the step
+	cancel button for progressbar
+	
